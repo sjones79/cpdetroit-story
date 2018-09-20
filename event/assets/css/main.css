@@ -2291,6 +2291,9 @@ input, select, textarea {
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375rem);
 				}
+		#eventthankyou {
+			display: none;
+		}
 
 		@media screen and (max-width: 480px) {
 

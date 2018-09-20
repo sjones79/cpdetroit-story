@@ -23,10 +23,10 @@ $(function() {
 		.done(function(response) {
             
             //show the thank you view
-            $('#form-main').hide();
-            $('#contactthankyou').css('display', 'flex');
+            $('#eventform-main').hide();
+            $('#eventthankyou').css('display', 'flex');
             //clear form fields
-            $("#ajax-contact")[0].reset();
+            $("#event-contact")[0].reset();
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.
