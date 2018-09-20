@@ -24,7 +24,7 @@ $(function() {
             
             //show the thank you view
             $('#eventform-main').hide();
-            $('#eventthankyou').css('display', 'flex');
+            $('#eventthankyou').show();
             //clear form fields
             $("#event-contact")[0].reset();
 		})
