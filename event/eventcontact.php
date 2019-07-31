@@ -56,7 +56,7 @@ function sendMail ($name, $emailAddress, $message) {
     $recipient = "info@capoeiradetroit.org";
 
     // Set the email subject.
-    $subject = "Event Message from $name";
+    $subject = "Event Inquiry from $name";
 
     // Build the email content.
     $email_content = "Name: $name\n";
